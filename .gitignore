@@ -5,3 +5,5 @@ hardware/*.csv
 hardware/*.bak
 hardware/lib/*.bak
 hardware/lib/*.FCStd1
+
+tags
