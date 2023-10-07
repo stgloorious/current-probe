@@ -1,1 +1,4 @@
 hardware/current_probe-backups
+hardware/*.pdf
+hardware/*.xml
+hardware/*.csv
