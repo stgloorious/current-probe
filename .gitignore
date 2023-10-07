@@ -4,6 +4,6 @@ hardware/*.xml
 hardware/*.csv
 hardware/*.bak
 hardware/lib/*.bak
-hardware/lib/*.FCStd1
+hardware/lib/step/*.FCStd1
 
 tags
