@@ -13,7 +13,7 @@ between the output (connects to oscilloscope) and the input port.
 The input impedance of the amplifier should be around 6k ohms.
 The output is matched to 50 ohms over an isolating signal transformer.
 
-<img src="./docs/pcb.png" width="50%" /><img src="./docs/pcb2.png" width="50%" />
+<img src="./docs/pcb.png" height="300px" /><img src="./docs/pcb2.png" height="300px" />
 
 The amplifier module is intended to be used as a current probe with
 an additional shunt resistor. The amplifier is placed near the device 
