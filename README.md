@@ -17,7 +17,8 @@ The output is matched to 50 ohms over an isolating signal transformer.
 
 The amplifier module is intended to be used as a current probe with
 an additional shunt resistor. The amplifier is placed near the device 
-under test. The output signal is digitized by an oscilloscope for analysis.
+under test and amplifies the voltage drop across the measurement resistor.
+The output signal is digitized by an oscilloscope connected over the SMA connector.
 
 ## Progress
 
@@ -29,7 +30,7 @@ under test. The output signal is digitized by an oscilloscope for analysis.
 
 ## Motivation
 The current probe is designed to measure the transient current consumption
-of microcontrollers and low-end CPUs in order to create a power consumption
+of microcontrollers and low-end CPUs in order to use a power consumption
 side channel, which can be used to leak information about cryptographic
 operations.
 
@@ -46,4 +47,4 @@ and do not need access to other attack methods (such as fault injection).
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/stgloorious/current-probe">current-probe</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/stgloorious/">Stefan Gloor</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
 
-This does not include work of third parties, e.g., 3D step models.
+This does not include work of third parties, e.g., 3D STEP models.
