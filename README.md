@@ -13,31 +13,11 @@ between the output (connects to oscilloscope) and the input port.
 The input impedance of the amplifier should be around 6k ohms.
 The output is matched to 50 ohms over an isolating signal transformer.
 
-![<img src="./docs/pcb.png" width="40" />](docs/pcb.png)
-![<img src="./docs/pcb1.png" width="40" />](docs/pcb1.png)
+<img src="./docs/pcb.png" width="50%" /><img src="./docs/pcb2.png" width="50%" />
 
 The amplifier module is intended to be used as a current probe with
 an additional shunt resistor. The amplifier is placed near the device 
 under test. The output signal is digitized by an oscilloscope for analysis.
-
-~~~
-   .
-   .
-   |
- __|__
-|     |
-| DUT |
-|_____|             ______________________________
-   |               |                              |
-   +------------+  |   Low-noise amplifier        |_____
-  | | Shunt     +--|   with up to 55 dB gain      |///  |_  ==> To oscilloscope
-  | |           +--|                              |///__|
-   +------------+  |                              |  
-   |     Short     |______________________________|
-   .     wiring
-   .
-~~~
-
 
 ## Progress
 
@@ -61,3 +41,9 @@ My goal with this DIY low-noise current probe is to have a cost-effective
 alternative to other specialized tools, as I already own 
 suitable measurements equipment (i.e., an oscilloscope) 
 and do not need access to other attack methods (such as fault injection).
+
+## License
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/stgloorious/current-probe">current-probe</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/stgloorious/">Stefan Gloor</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+
+This does not include work of third parties, e.g., 3D step models.
