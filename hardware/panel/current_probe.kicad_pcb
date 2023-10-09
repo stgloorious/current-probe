@@ -21420,7 +21420,7 @@
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp a2c3dc73-5db5-46e0-8b93-ef7a278bf47f))
   (gr_circle (center 144.0008 94.9994) (end 144.3008 94.9994)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp a2c7f95e-ae57-4360-acfa-eecdd455a8d8))
-  (gr_line (start 191.999807 132.083204) (end 191.999808 145.999854)
+  (gr_line (start 191.999808 132.083204) (end 191.999808 145.999854)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp a2e11025-c2ce-4fd5-b45f-101c3ca0f01a))
   (gr_arc (start 215.999785 109.916554) (mid 214.999785 110.916554) (end 213.999785 109.916554)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp a4d1d6a8-b77a-4d5f-9228-5da2beef519c))
