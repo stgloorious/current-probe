@@ -45,7 +45,7 @@ and do not need access to other attack methods (such as fault injection).
 
 ## Manufacturing
 PCB manufacturing was done in a custom panel with 5 individual PCBs by
-[multi-cb](multi-cb.eu). Assembly was done by hand.
+[multi-cb](https://multi-cb.eu). Assembly was done by hand.
 
 ![panel](docs/panel.png)
 ![pcbs](docs/assembled_pcbs.jpg)
