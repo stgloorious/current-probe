@@ -2,8 +2,6 @@
 
 This is an experimental breakout board for the ultralow noise AD8331
 variable-gain amplifier with internal low-noise preamplifier. 
-The board is designed to provide electrical isolation
-between the output (connects to oscilloscope) and the input port.
 
 - AC-coupled input up to 200 mV
 - Adjustable gain amplifier, up to 55 dB
@@ -11,6 +9,9 @@ between the output (connects to oscilloscope) and the input port.
 - Single 3.3V supply
 
 The input impedance of the amplifier should be around 6k ohms.
+The probe is designed to be in close proximity (< 10 mm) to the signal source,
+i.e., such that no shielded cable is required and instead short wires can
+directly be soldered to the probe.
 The output is matched to 50 ohms over an isolating signal transformer.
 
 <img src="./docs/pcb.png" height="280px" /><img src="./docs/pcb2.png" height="280px" />
