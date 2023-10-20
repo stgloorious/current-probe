@@ -24,7 +24,7 @@ The output signal is digitized by an oscilloscope connected over the SMA connect
 
 - [x] Schematics design
 - [x] PCB layout
-- [ ] PCB prototype manufacturing
+- [x] PCB prototype manufacturing
 - [ ] In-circuit verification
 - [ ] Proof-of-concept of power analysis side channel attack
 
@@ -43,9 +43,12 @@ alternative to other specialized tools, as I already own
 suitable measurements equipment (i.e., an oscilloscope) 
 and do not need access to other attack methods (such as fault injection).
 
-## Production
-PCB manufacturing was done in a custom panel with 5 individual PCBs.
+## Manufacturing
+PCB manufacturing was done in a custom panel with 5 individual PCBs by
+[multi-cb](multi-cb.eu). Assembly was done by hand.
+
 ![panel](docs/panel.png)
+![pcbs](docs/assembled_pcbs.jpg)
 
 ## License
 
