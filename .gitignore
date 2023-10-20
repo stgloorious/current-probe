@@ -7,4 +7,6 @@ hardware/lib/*.bak
 hardware/lib/step/*.FCStd1
 hardware/panel/current_probe-backups
 
+pictures/
+*.xcf
 tags
