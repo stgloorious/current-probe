@@ -27,14 +27,23 @@ The output signal is digitized by an oscilloscope connected over the SMA connect
 - [x] Schematics design
 - [x] PCB layout
 - [x] PCB prototype manufacturing
-- [ ] In-circuit verification
+- [x] In-circuit verification
 - [ ] Proof-of-concept of power analysis side channel attack
+
+### Known Issues
+Although there is a notch filter to suppress the parasitic switching frequency
+of the DC/DC converter, it is still visible at the output.
 
 ## Motivation
 The current probe is designed to measure the transient current consumption
 of microcontrollers and low-end CPUs in order to use a power consumption
 side channel, which can be used to leak information about cryptographic
 operations.
+An example power trace measured with this current probe can be seen below.
+Clearly visible are the 10 AES rounds of the AES-128-ECB algorithm running
+on an STM32 microcontroller.
+
+![AES power trace](docs/aes_trace.png)
 
 Such side-channel attacks have been known to exists for many years, and there
 are even [commercial tools](https://chipwhisperer.readthedocs.io/en/latest/getting-started.html)
